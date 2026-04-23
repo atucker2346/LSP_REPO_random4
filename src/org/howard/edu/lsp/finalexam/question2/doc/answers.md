@@ -1,0 +1,3 @@
+# Question 2 — Design Explanation
+
+The **Template Method** pattern is implemented in `Report`: `generateReport()` is a `final` template method that defines the fixed workflow—`loadData()` followed by printing the `=== HEADER ===`, `=== BODY ===`, and `=== FOOTER ===` sections using `formatHeader()`, `formatBody()`, and `formatFooter()`. Subclasses `StudentReport` and `CourseReport` supply the variable steps by overriding those abstract hook methods and by setting `studentName`/`gpa` or `courseName`/`enrollment` inside `loadData()`. The `Driver` holds a `List<Report>` and calls `generateReport()` on each element, so polymorphism dispatches to the correct formatting without `Driver` knowing concrete types.

@@ -1,0 +1,3 @@
+# Question 4 — AI and Programming (independent work)
+
+The encouragement of the usage of Artificial Intelligence has definitely changed my perspective on the subject at hand. Throughout this course, AI was a major tool during homework and tests, and it proved to be extremely useful. In other Computer Science courses that I have taken, I have been denied the use of the tool, leading to many frustrations and mistakes, but through this class and the use of AI, I have been able to mitigate that occurrence. Through this class, I have been able to see the usefulness of Artificial Intelligence in the classroom, and think that many teachers should follow suit and begin using Artificial Intelligence in their classrooms as well. 
